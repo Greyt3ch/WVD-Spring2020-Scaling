@@ -138,6 +138,10 @@ param(
 	[string]$LogOffMessageBody
 )
 
+#Initializing variables
+$ScriptRepoLocation = "https://raw.githubusercontent.com/Azure/RDS-Templates/master/wvd-templates/wvd-scaling-script"
+
+
 # Setting ErrorActionPreference to stop script execution when error occurs
 $ErrorActionPreference = "Stop"
 

@@ -26,9 +26,9 @@ Login-AzAccount
 
 3) Run the following cmdlet to download the script for creating the Azure Automation account:
 
-	Set-Location -Path "c:\temp"
-	$uri = "https://raw.githubusercontent.com/Greyt3ch/WVD-Spring2020-Scaling/createazureautomationaccount.ps1"
-	Invoke-WebRequest -Uri $uri -OutFile ".\createazureautomationaccount.ps1"
+		Set-Location -Path "c:\temp"
+		$uri = "https://raw.githubusercontent.com/Greyt3ch/WVD-Spring2020-Scaling/createazureautomationaccount.ps1"
+		Invoke-WebRequest -Uri $uri -OutFile ".\createazureautomationaccount.ps1"
 
 4) Run the following cmdlet to execute the script and create the Azure Automation account:
 

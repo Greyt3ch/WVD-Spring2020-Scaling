@@ -64,3 +64,11 @@ To create a Run As account in your Azure account:
 	5) Wait a few minutes for Azure to create the Run As account. You can track the creation progress in the menu under Notifications.
 
 	6) When the process finishes, it will create an asset named AzureRunAsConnection in the specified Automation account. The connection  		asset holds the application ID, tenant ID, subscription ID, and certificate thumbprint. Remember the application ID, because 		  you'll use it later.
+	
+***Create a role assignment in Windows Virtual Desktop***
+
+1) Add the "Run As Account" as a 'Contributor' to the Resource Group that contains both the:
+	-Host Pool
+	-Session Hosts
+
+

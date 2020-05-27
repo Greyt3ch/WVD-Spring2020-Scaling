@@ -32,7 +32,7 @@ Login-AzAccount
 
 4) Run the following cmdlet to execute the script and create the Azure Automation account:
 
-		.\createazureautomationaccount.ps1 -SubscriptionID <azuresubscriptionid> -ResourceGroupName <resourcegroupname> -	 	AutomationAccountName <name of automation account> -Location "Azure region for deployment"
+		.\createazureautomationaccount.ps1 -SubscriptionID <azuresubscriptionid> -ResourceGroupName <resourcegroupname> -AutomationAccountName <name of automation account> -Location "Azure region for deployment"
 
 5) The cmdlet's output will include a webhook URI. Make sure to keep a record of the URI because you'll use it as a parameter when you set up the execution schedule for the Azure Logic apps.
 

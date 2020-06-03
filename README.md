@@ -2,7 +2,7 @@
 
 Taking the Fall 2019 scaling scripts are rewriting them to fit Spring 2020 WVD scaling automation
 
-***Should be completed by 5/15/2020***
+***COMPLETED - In Pilot Testing***
 
 Follow along with the MS Docs page, just substitute these .ps1 files.
 
